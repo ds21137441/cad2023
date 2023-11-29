@@ -2,6 +2,7 @@
         <head>
         <title>cad2023</title>
         <meta charset="utf-8">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,12 +142,21 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Inventor.html'>Next</a> >> Inventor<br /><h1>About</h1>
-<p>41123209吳振宇</p>
-<p>於11/30開始維護個人網站</p>
-<p>在反覆觀看上課影片以及多次詢問同學嘗試維護中</p>
-<p><a href="https://github.com/mdecycu/cmsite"> https://github.com/mdecycu/cmsite </a></p>
-<br /> <a href='Inventor.html'>Next</a> >> Inventor</div>
+    <div id="tipue_search_content">W11 << <a href='W11.html'>Previous</a> <a href='Wink 過程操作說明影片.html'>Next</a> >> Wink 過程操作說明影片<br /><h1>Wink</h1>
+<p>學習如何利用<span> </span><a href="https://www.debugmode.com/wink.html">Wink</a><span> </span>製作電腦操作流程影片, 並將影片放入個人與分組網頁中.</p>
+<p>首先使用者必須了解<span> </span><a href="https://www.debugmode.com/wink.html">Wink</a><span> </span>製作影片的功能與<span> </span><a href="https://github.com/ShareX/ShareX/releases">ShareX</a><span> </span>相同, 都是依賴<span> </span><a href="https://ffmpeg.org/download.html">ffmpeg.exe</a>. 意即使用<span> </span><a href="https://www.debugmode.com/wink.html">Wink</a><span> </span>之前必須在 Preferences 中先行設定 ffmpeg.exe 所在位置, 否則無法對所建立的專案轉為 mp4 檔案.</p>
+<p>另外, 若擷取關鍵影格的電腦螢幕解析度大於 1008 x 630, 通常建立將影格 resize, 以方便使用者在手機上觀看影片.</p>
+<p>利用 Wink 建立操作影片的步驟:</p>
+<ol>
+<li>設定 ffmpeg.exe 所在位置, 若使用隨身碟中的可攜程式系統, 可將 ffmpeg.exe 放在 data 目錄中, 並以 wink_ffmpeg.reg 進行設定, 也可將 Wink 的啟動與 start_ipv6.bat 進行整合.</li>
+<li>開啟 Wink 新專案.</li>
+<li>每按下一次 Pause 鍵, 可擷取操作過程中的畫面影格 (利用 Zoomit 放大所要強調的操作內容, 並以紅線框列).</li>
+<li>操作錄製結束後, 從右下方的 Tray 中, 以滑鼠左鍵點選, 在 Wink 圖示中, 以滑鼠右鍵帶出 Finish Capture 按鍵, 點選後即可回到 Wink 專案區.</li>
+<li>在每一頁影格中加入註解說明 TextBox 之前, 先利用 Project - Resize All Frames 將影格縮小至 1008 x630.</li>
+<li>完成註解說明後, 可以逐一移動各頁面滑鼠游標位置, 並決定各頁面影片播放時的停留時間.</li>
+<li>最後以 Render 按鈕進行轉檔, 並利用 View Rendered Output 檢視所建立的操作影片.</li>
+</ol>
+<br />W11 << <a href='W11.html'>Previous</a> <a href='Wink 過程操作說明影片.html'>Next</a> >> Wink 過程操作說明影片</div>
         
     <!-- footer -->
       <div class="container">
